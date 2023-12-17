@@ -2,7 +2,7 @@
 
 ## Introduction
 
-With the emergence of large language models (LLMs), concerns about the LLMs' security have been raised. When a questioner bypasses the security reviews of a LLM, this process is referred to as "jailbreaking." Our tool can automatically generate a large number of questions capable of triggering security mechanisms in LLMs and automatically test whether these LLMs can provide effective security reviews in a multilingual environment.
+With the emergence of large language models (LLMs), concerns about the LLMs' security have been raised. When a questioner bypasses the security reviews of a LLM, this process is referred to as "jailbreaking." Our tool can automatically generate a large number of questions capable of triggering security mechanisms in ChatGPT (current state of the art LLM) and automatically test whether these LLM (ChatGPT) can provide effective security reviews in a multilingual environment.
 
 ## Project Structure
 
@@ -52,7 +52,7 @@ In the api_utils.py add your API key at the below location:
 
 In the api_utils.py add your Google cloud project name (created in previous step) at the below location:
 
-![image](./docs/openai_api_link_location.png)
+![image](./docs/google_cloud_config_location.png)
 
 
 ## Running the RQ specific code selectively:
